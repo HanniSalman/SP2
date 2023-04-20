@@ -27,4 +27,9 @@ public abstract class ACar implements Car {
     public int getNumberOfDoors(){
         return numberOfDoors;
     }
+
+    @Override
+    public String toString(){
+        return "Car information:\nBrand: " + getMake() + "\nModel: " + getModel() + "\nNumber of doors: " + getNumberOfDoors();
+    }
 }

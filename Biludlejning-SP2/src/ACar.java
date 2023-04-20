@@ -11,15 +11,19 @@ public abstract class ACar implements Car {
         this.numberOfDoors = numberOfDoors;
     }
 
+    @Override
     public String getRegistrationNumber(){
         return registrationNumber;
     }
+    @Override
     public String getMake(){
         return make;
     }
+    @Override
     public String getModel(){
         return model;
     }
+    @Override
     public int getNumberOfDoors(){
         return numberOfDoors;
     }

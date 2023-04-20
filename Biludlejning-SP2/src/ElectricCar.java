@@ -10,6 +10,10 @@ public class ElectricCar {
 
     }
 
+    int getWhPrKm(){
+
+    }
+
     int getRegistrationFee(){
 
     }

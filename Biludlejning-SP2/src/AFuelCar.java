@@ -6,9 +6,11 @@ public abstract class AFuelCar extends ACar{
         this.kmPrLitre = kmPrLitre;
     }
 
-    public abstract String getFuelType();
+    public String getFuelType(){
+        return "Fuel";
+    }
 
-    public int getKmPrLitre(){
+    public int kmPrLitre(){
         return kmPrLitre;
     }
 

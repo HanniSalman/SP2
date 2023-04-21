@@ -6,6 +6,7 @@ public class GasolinCar extends AFuelCar{
     public String getFuelType(){
         return "Gasoline";
     }
+    @Override
     public int getRegistrationFee(){
         int kmPrLitre = kmPrLitre();
         if(kmPrLitre >= 20 && kmPrLitre <= 50){
